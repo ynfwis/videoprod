@@ -10,7 +10,7 @@
     <div class="wrapper">
         <header class="header">
             <div class="logo">
-                <a href="#">
+                <a href="#" class="logo__link">
                     <img src="#" alt="" class="logo__image">
                 </a>
             </div>
@@ -28,14 +28,14 @@
         </header>
         <main class="main">
             <div class="preview-bg">
-                <img src="#" alt="" class="preview-bg__image">
-                <section class="preview">
+                    <section class="preview">
                     <h1 class="preview__header">снимем для вас креативное видео</h1>
                     <p class="preview__text">Креативный видеопродакшн полного цикла</p>
                     <button class="preview__button button">Подробнее</button>
                 </section>
                 <section class="services">
-                    <div class="services__card">
+                    <ul class="services__list">
+                    <li class="services__card">
                         <img src="#" alt="" class="services__image">
                         <div class="services__content">
                             <h3 class="services__name">Реклама</h3>
@@ -48,8 +48,8 @@
                             </div>
                         </div>
                         <button class="services__button buton">Подробнее</button>
-                    </div>
-                    <div class="services__card">
+                    </li>
+                    <li class="services__card">
                         <img src="#" alt="" class="services__image">
                         <div class="services__content">
                             <h3 class="services__name">Видео-клип</h3>
@@ -62,8 +62,8 @@
                             </div>
                         </div>
                         <button class="services__button buton">Подробнее</button>
-                    </div>
-                    <div class="services__card">
+                    </li>
+                    <li class="services__card">
                         <img src="#" alt="" class="services__image">
                         <div class="services__content">
                             <h3 class="services__name">Свадьба</h3>
@@ -76,39 +76,41 @@
                             </div>
                         </div>
                         <button class="services__button buton">Подробнее</button>
-                    </div>
+                    </li>
+                    </ul>
                 </section>
             </div>
             <div class="news-bg">
-                <img src="#" alt="" class="news-bg__image">
                 <section class="news">
                      <h2 class="news__header">Новости и акции</h2>
-                     <div class="news__card">
+                    <ul class="news__list">
+                     <li class="news__card">
                         <img src="#" alt="" class="news__image">
                         <div class="news__content">
                             <div class="news__date">Декабрь 2019</div>
                             <div class="news__name">Снимем ваш клип на 50% дешевле</div>
                             <div class="news__description">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты. </div>
                         </div>
-                     </div>
-                     <div class="news__card">
+                     </li>
+                     <li class="news__card">
                         <img src="#" alt="" class="news__image">
                         <div class="news__content">
                             <div class="news__date">Декабрь 2019</div>
                             <div class="news__name">Акция для молодоженов 30%</div>
                             <div class="news__description">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
                         </div>
-                     </div>
-                    <div class="slider">
-                        <p class="slider__current">Страница 1 из 7</p>
-                        <ul class="slider__list">
-                            <li class="slider__page"><a href="#" class="slider__link">1</a></li>
-                            <li class="slider__page"><a href="#" class="slider__link">2</a></li>
-                            <li class="slider__page"><a href="#" class="slider__link">3</a></li>
-                            <li class="slider__page"><a href="#" class="slider__link">4</a></li>
-                            <li class="slider__page"><a href="#" class="slider__link">5</a></li>
-                            <li class="slider__page"><a href="#" class="slider__link">6</a></li>
-                            <li class="slider__page"><a href="#" class="slider__link">7</a></li>
+                     </li>
+                    </ul>
+                    <div class="paginator">
+                        <p class="paginator__current">Страница 1 из 7</p>
+                        <ul class="paginator__list">
+                            <li class="paginator__page"><a href="#" class="slider__link">1</a></li>
+                            <li class="paginator__page"><a href="#" class="slider__link">2</a></li>
+                            <li class="paginator__page"><a href="#" class="slider__link">3</a></li>
+                            <li class="paginator__page"><a href="#" class="slider__link">4</a></li>
+                            <li class="paginator__page"><a href="#" class="slider__link">5</a></li>
+                            <li class="paginator__page"><a href="#" class="slider__link">6</a></li>
+                            <li class="paginator__page"><a href="#" class="slider__link">7</a></li>
                         </ul>
                     </div>
                  </section>
@@ -126,7 +128,7 @@
         </main>
         <footer class="footer">
             <div class="logo">
-                <a href="#">
+                <a href="#" class="logo__link">
                     <img src="#" alt="" class="logo__image">
                 </a>
             </div>
@@ -145,9 +147,9 @@
                     <li class="socials__item"><a href="#"><img src="#" alt="instagram" class="socials__icon"></a></li>
                 </ul>
             </div>
-            <address class="footer-contacts">
-                <p class="footer-contacts__text">Бесплатный звонок по России</p>
-                <a href="tel:+78007003030" class="footer-contacts__phone contacts__phone">8 800 700 30 30</a>
+            <address class="contacts">
+                <p class="contacts__text">Бесплатный звонок по России</p>
+                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             </address>
         </footer>
     </div>
