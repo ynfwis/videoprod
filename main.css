@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 * {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #17191C;
+    max-width: 1550px;
+    margin: 0, auto;
+}
+
+.wrapper (
+   
+)
+
+.header {
+    height: 120px;
+    position: relative;
+}
+
+.logo {
+
 }
