@@ -11,13 +11,29 @@
 
 body {
     background-color: #17191C;
-    max-width: 1550px;
-    margin: 0, auto;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-.wrapper (
-   
-)
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.wrapper {
+    max-width: 1550px;
+    margin: 0 auto;
+}
 
 .header {
     height: 120px;
@@ -25,5 +41,43 @@ body {
 }
 
 .logo {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
 
+.header .navigation {
+    position:  absolute;
+    top: 40px;
+    left: 450px;
+}
+
+.header .contacts {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.navigation__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation__link {
+    font-size: 14px;
+    margin-right: 55px;
+}
+
+.navigation__link:hover {
+    color: #FF3D00;
+}
+
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__schedule {
+    font-style: 13px;
 }
