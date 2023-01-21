@@ -12,7 +12,7 @@
         <header class="header">
             <div class="logo">
                 <a href="#" class="logo__link">
-                    <img src="img/logo.png" alt="video production logo" class="logo__image" width="198" height="46">
+                    <img src="img/logo.png" alt="video production logo" class="logo__image">
                 </a>
             </div>
             <nav class="navigation">
@@ -24,61 +24,65 @@
             </nav>
             <address class="contacts">
                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                <a href="#" class="contacts__schedule">График работы</a>
+                <div class="contacts__dropdown">
+                    <a href="#" class="contacts__schedule">График работы</a>
+                </div>
             </address>
         </header>
         <main class="main">
             <div class="preview-bg">
-                    <section class="preview">
+                <section class="preview">
                     <h1 class="preview__header">снимем для вас креативное видео</h1>
                     <p class="preview__text">Креативный видеопродакшн полного цикла</p>
                     <button class="preview__button button">Подробнее</button>
                 </section>
                 <section class="services">
-                    <ul class="services__list">
-                    <li class="services__card">
-                        <img src="img/tv.png" alt="" class="services__image">
-                        <div class="services__content">
-                            <h3 class="services__name">Реклама</h3>
-                            <div class="services__meta">
-                                <div class="services__people">От 5 человек на проект</div>
-                                <div class="services__time">28 дней работы в среднем</div>
+                    <div class="container">
+                        <ul class="services__list">
+                        <li class="services__card">
+                            <img src="img/tv.png" alt="" class="services__image">
+                            <div class="services__content">
+                                <h3 class="services__name">Реклама</h3>
+                                <div class="services__meta">
+                                    <div class="services__info">От <span class="services__number">5</span> человек на проект</div>
+                                    <div class="services__info"><span class="services__number">28</span> дней работы в среднем</div>
+                                </div>
+                                <div class="services__description">
+                                    Креатив и производство рекламы, документального и корпоративного контента.
+                                </div>
                             </div>
-                            <div class="services__description">
-                                <p>Креатив и производство рекламы, документального и корпоративного контента.</p>
+                            <button class="services__button button">Подробнее</button>
+                        </li>
+                        <li class="services__card">
+                            <img src="img/clapper.png" alt="" class="services__image">
+                            <div class="services__content">
+                                <h3 class="services__name">Видео-клип</h3>
+                                <div class="services__meta">
+                                    <div class="services__info">От <span class="services__number">7</span> человек на проект</div>
+                                    <div class="services__info"><span class="services__number">21</span> дней работы в среднем</div>
+                                </div>
+                                <div class="services__description">
+                                    Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!
+                                </div>
                             </div>
-                        </div>
-                        <button class="services__button buton">Подробнее</button>
-                    </li>
-                    <li class="services__card">
-                        <img src="#" alt="" class="services__image">
-                        <div class="services__content">
-                            <h3 class="services__name">Видео-клип</h3>
-                            <div class="services__meta">
-                                <div class="services__people">От 7 человек на проект</div>
-                                <div class="services__time">21 дней работы в среднем</div>
+                            <button class="services__button button">Подробнее</button>
+                        </li>
+                        <li class="services__card">
+                            <img src="img/film.png" alt="" class="services__image">
+                            <div class="services__content">
+                                <h3 class="services__name">Свадьба</h3>
+                                <div class="services__meta">
+                                    <div class="services__info">От <span class="services__number">2</span> человек на проект</div>
+                                    <div class="services__info"><span class="services__number">30</span> дней работы в среднем</div>
+                                </div>
+                                <div class="services__description">
+                                    Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.
+                                </div>
                             </div>
-                            <div class="services__description">
-                                <p>Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</p>
-                            </div>
-                        </div>
-                        <button class="services__button buton">Подробнее</button>
-                    </li>
-                    <li class="services__card">
-                        <img src="#" alt="" class="services__image">
-                        <div class="services__content">
-                            <h3 class="services__name">Свадьба</h3>
-                            <div class="services__meta">
-                                <div class="services__people">От 2 человек на проект</div>
-                                <div class="services__time">30 дней работы в среднем</div>
-                            </div>
-                            <div class="services__description">
-                                <p>Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
-                            </div>
-                        </div>
-                        <button class="services__button buton">Подробнее</button>
-                    </li>
-                    </ul>
+                            <button class="services__button button">Подробнее</button>
+                        </li>
+                        </ul>
+                    </div>
                 </section>
             </div>
             <div class="news-bg">
