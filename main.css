@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+p {
+    color: inherit;
+    font-size: inherit;
+    margin-top: 0;
+}
+
 .wrapper {
     max-width: 1140px;
     margin: 0 auto;
@@ -280,6 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pager {
     text-align: center;
+    margin-bottom: 140px;
 }
 
 .pager__current, .pager__list {
@@ -307,4 +314,112 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     font-weight: 700;
     line-height: 32px;
+}
+
+/* ---------------------about--------------------- */
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:before, .about__description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about:before {
+    content: "";
+    width: 490px;
+    height: 505px;
+    background: url("/img/cameraman.jpg") center center / cover no-repeat;
+}
+
+.about__description {
+    background: #fff;
+    border-radius: 5px;
+    padding: 70px 80px;
+    width: 785px;
+    height: 455px;
+    margin-left: -140px;
+    margin-top: 90px;
+}
+
+.about__header {
+    color: #060606;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.about__text {
+    color: #060606;
+    font-size: 16px;
+    margin-bottom: 43px;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* --------------------------footer-------------------- */
+
+.footer {
+    height: 140px;
+    position: relative;
+}
+
+.footer .navigation {
+    position: absolute;
+    left: 290px;
+    bottom: 55px;
+}
+
+.socials {
+    position: absolute;
+    top: 53px;
+    right: 300px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__item--icon--tg {
+    background-image: url("./img/telegram.png");
+}
+
+.socials__item--icon--vk {
+    background-image: url("./img/vk.png");
+}
+
+.socials__item--icon--fb {
+    background-image: url("./img/f.png");
+}
+
+.socials__item--icon--in {
+    background-image: url("./img/in.png");
+}
+
+.socials__link {
+    display: block;
+    height: 36px;
+    width: 36px;
+    background: center center no-repeat;
+}
+
+
+.contacts__text {
+    font-size: 11px;
 }
