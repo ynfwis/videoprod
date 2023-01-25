@@ -11,8 +11,8 @@
 }
 
 body {
-    background-color: #17191C;
-  }
+    background: url('/img/hero.jpg') center top no-repeat, url('/img/bottom-pic.png') center bottom no-repeat #17191C ;
+}
 
 ul {
     margin: 0;
@@ -40,11 +40,13 @@ p {
     color: inherit;
     font-size: inherit;
     margin-top: 0;
+    line-height: inherit;
 }
 
 .wrapper {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 .button {
@@ -66,7 +68,7 @@ p {
 .header {
     height: 120px;
     position: relative;
-    margin-bottom: 170px;
+    margin-bottom: 106px;
 }
 
 .logo {
@@ -79,13 +81,13 @@ p {
 .header .navigation {
     position:  absolute;
     top: 40px;
-    left: 450px;
+    left: 436px;
 }
 
 .header .contacts {
     position: absolute;
-    top: 30px;
-    right: 0;
+    top: 24px;
+    right: 4px;
 }
 
 .navigation__item {
@@ -95,7 +97,7 @@ p {
 
 .navigation__link {
     font-size: 14px;
-    margin-right: 55px;
+    margin-right: 50px;
 }
 
 .navigation__link:hover {
@@ -109,11 +111,12 @@ p {
 
 .contacts__phone {
     font-size: 26px;
-    margin-bottom: 4px;
+    margin-bottom: -6px;
+    display: block;
 }
 
 .contacts__schedule {
-    font-style: 13px;
+    font-size: 13px;
     text-decoration: underline;
     color: #FF3D00;
 }
@@ -136,7 +139,7 @@ p {
     text-align: center;
     line-height: 1.36;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: -24px;
 }
 
 .preview__text {
@@ -153,13 +156,13 @@ p {
 /* --------------services-------------- */
 
 .services {
-    margin-bottom: 185px;
+    margin-bottom: 175px;
 }
 
 .services__card {
     display: inline-block;
-    width: 362px;
-    min-height: 477px;
+    width: 360px;
+    min-height: 470px;
     background-color: #fff;
     border-radius: 5px;
     margin-right: 23px;
@@ -170,25 +173,25 @@ p {
 }
 
 .services__image {
-    margin: 36px 30px;
+    margin: 36px 30px 26px;
     width: 76px;
     height: 76px;
 }
 
 .services__content {
-    margin-left: 30px;
+    margin-left: 23px;
 }
 
 .services__name {
     color: #000;
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 14px;
 }
 
 .services__meta {
     width: 310px;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
 }
 
 .services__info {
@@ -196,7 +199,7 @@ p {
     font-size: 16px;
     display: inline-block;
     width: 120px;
-    margin-right: 50px;
+    margin-right: 56px;
 }
 
 .services__info:last-child {
@@ -247,7 +250,7 @@ p {
 }
 
 .news__card:first-child {
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
 .news__image {
@@ -269,8 +272,8 @@ p {
 .news__name {
     font-weight: 700;
     font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 11px;
+    margin-bottom: 5px;
 }
 
 .news__description {
@@ -279,19 +282,20 @@ p {
 }
 
 .news__list {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 /* ----------------pager--------------- */
 
 .pager {
     text-align: center;
-    margin-bottom: 140px;
+    margin-bottom: 142px;
 }
 
 .pager__current, .pager__list {
     display: inline-block;
     vertical-align: middle;
+    font-size: 16px;
 }
 
 .pager__current {
@@ -319,7 +323,7 @@ p {
 /* ---------------------about--------------------- */
 
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .about:before, .about__description {
@@ -338,10 +342,10 @@ p {
     background: #fff;
     border-radius: 5px;
     padding: 70px 80px;
-    width: 785px;
+    width: 782px;
     height: 455px;
-    margin-left: -140px;
-    margin-top: 90px;
+    margin-left: -141px;
+    margin-top: 88px;
 }
 
 .about__header {
@@ -349,13 +353,15 @@ p {
     font-weight: 800;
     font-size: 36px;
     text-transform: uppercase;
-    margin-bottom: 45px;
+    margin-bottom: 37px;
 }
 
 .about__text {
     color: #060606;
     font-size: 16px;
     margin-bottom: 43px;
+    width: 501px;
+    line-height: 27px;
 }
 
 .about__text p {
@@ -366,30 +372,45 @@ p {
     margin-bottom: 0;
 }
 
+.about__button {
+    padding: 17px 37px;
+}
+
 
 /* --------------------------footer-------------------- */
+
+.footer-container {
+    width: 1140px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, .1); 
+}
 
 .footer {
     height: 140px;
     position: relative;
 }
 
+.footer .logo {
+    position: absolute;
+    top: 42px;
+}
+
 .footer .navigation {
     position: absolute;
-    left: 290px;
-    bottom: 55px;
+    left: 327px;
+    bottom: 57px;
 }
 
 .socials {
     position: absolute;
-    top: 53px;
-    right: 300px;
+    top: 51px;
+    right: 268px;
 }
 
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .socials__item:last-child {
@@ -419,7 +440,17 @@ p {
     background: center center no-repeat;
 }
 
+.footer .contacts {
+    position: absolute;
+    top: 47px;
+    right: 3px;
+}
 
 .contacts__text {
     font-size: 11px;
+    margin-bottom: 0;
+}
+
+.footer .contacts__phone {
+    /* margin-top: -5px; */
 }
