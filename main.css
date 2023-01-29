@@ -12,6 +12,7 @@
 
 body {
     background: url('/img/hero.jpg') center top no-repeat, url('/img/bottom-pic.png') center bottom no-repeat #17191C ;
+    margin: 0;
 }
 
 ul {
@@ -56,6 +57,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     padding: 17px 50px;
+    border: 1px solid transparent;
 }
 
 .button:hover {
@@ -93,11 +95,15 @@ p {
 .navigation__item {
     display: inline-block;
     vertical-align: middle;
+    margin-right: 50px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
 }
 
 .navigation__link {
     font-size: 14px;
-    margin-right: 50px;
 }
 
 .navigation__link:hover {
@@ -166,6 +172,7 @@ p {
     background-color: #fff;
     border-radius: 5px;
     margin-right: 23px;
+    padding-left: 23px;
 }
 
 .services__card:last-child {
@@ -173,14 +180,14 @@ p {
 }
 
 .services__image {
-    margin: 36px 30px 26px;
+    margin: 36px 0 26px;
     width: 76px;
     height: 76px;
 }
 
-.services__content {
+/* .services__content {
     margin-left: 23px;
-}
+} */
 
 .services__name {
     color: #000;
@@ -219,7 +226,6 @@ p {
 }
 
 .services__button {
-    margin-left: 25px;
     margin-bottom: 50px;
     color: #FF5500;
     background-color: #fff;
@@ -299,6 +305,7 @@ p {
 }
 
 .pager__current {
+    margin-bottom: 0;
     margin-right: 30px;
 }
 
@@ -335,7 +342,7 @@ p {
     content: "";
     width: 490px;
     height: 505px;
-    background: url("/img/cameraman.jpg") center center / cover no-repeat;
+    background: url("./img/cameraman.jpg") center center / cover no-repeat;
 }
 
 .about__description {
