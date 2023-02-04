@@ -1,0 +1,23 @@
+
+.navigation__list {
+    display: flex;
+    margin-left: -8px;
+ }
+ 
+ 
+ .navigation__item {
+     margin-right: 55px; 
+ }
+ 
+ .navigation__item:last-child {
+     margin-right: 0;
+ }
+ 
+ .navigation__link {
+     font-size: 14px;
+ }
+ 
+ .navigation__link:hover {
+     color: #FF3D00;
+ }
+ 

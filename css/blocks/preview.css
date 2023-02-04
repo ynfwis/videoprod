@@ -1,0 +1,28 @@
+.preview__bg {
+    background-image: url(/img/hero.jpg);
+}
+
+.preview {
+    max-width: 780px;
+    margin: 0 auto 230px;
+}
+
+.preview__header {
+    font-weight: 800;
+    font-size: 72px;
+    text-align: center;
+    line-height: 1.36;
+    text-transform: uppercase;
+    margin-bottom: -24px;
+}
+
+.preview__text {
+    font-size: 18px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.preview__button {
+    display: block;
+    margin: 0 auto;
+}
