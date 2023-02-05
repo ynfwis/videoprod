@@ -1,0 +1,33 @@
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link {
+    text-decoration: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item--active {
+    font-weight: bold;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    padding-left: 2px;
+}
+
+.breadcrumbs__item:first-child {
+    padding-left: 0px;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9A9A9A;
+    padding: 0 3px;
+    
+}
+
+.breadcrumbs__item:last-child::after  {
+    display: none;
+}

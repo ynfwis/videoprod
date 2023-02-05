@@ -1,0 +1,31 @@
+.wrapper {
+    width: 100%;
+}
+
+.topline {
+    background: url(../../img/top-line.png) right top no-repeat #17181A;
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    /* width: 100%; */
+}
+
+.topline__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-title {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.topline .header {
+    margin-bottom: 0;
+}

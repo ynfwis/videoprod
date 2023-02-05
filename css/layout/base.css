@@ -10,8 +10,8 @@
 }
 
 body {
-    background: url('/img/hero.jpg') center top no-repeat, url('/img/bottom-pic.png') center bottom no-repeat #17191C ;
     margin: 0;
+    width: 100%;
 }
 
 ul {
@@ -43,11 +43,14 @@ p {
     line-height: inherit;
 }
 
+img {
+    max-width: 100%;
+}
 
-.wrapper {
+
+.wrapper-main-page {
     max-width: 1140px;
     margin: 0 auto;
-
 }
 
 .button {
@@ -63,4 +66,13 @@ p {
 .preview__button:hover {
     padding: 17px 40px;
     background-color: #DA0100;
+}
+
+.main-page {
+    background: url('/img/hero.jpg') center top no-repeat, url('/img/bottom-pic.png') center bottom no-repeat #17191C ;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
